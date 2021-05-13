@@ -680,11 +680,6 @@ font-size: 1.3em !important;
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
-   
-<<<<<<< HEAD
-=======
-    
->>>>>>> e8af10e9aadf57227a1ec5a9d1c5279c5c472c78
     z-index:1;
     
   }
