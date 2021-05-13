@@ -618,7 +618,7 @@ font-size: 1.3em !important;
     width: 400px !important;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 570px) {
   .tech-icons {
     margin: 10px !important;
     height: 80px!important;
