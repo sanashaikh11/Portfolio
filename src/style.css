@@ -611,6 +611,12 @@ font-size: 1.3em !important;
   .tech-icons {
     margin: 10px !important;
   }
+	.img-fluid {
+    max-width: 100%;
+    opacity: 0.9 !important;
+    height: 350px !important;
+    width: 400px !important;
+  }
 }
 
 .tech-icons:hover {
