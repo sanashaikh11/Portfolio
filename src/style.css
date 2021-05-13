@@ -51,7 +51,6 @@ li::before {
 .img-fluid {
   max-width: 100%;
   opacity: 0.6 !important;
-  background-color: burlywood !important;
   height: 950px !important;
   width: 800px !important;
 }
@@ -654,9 +653,8 @@ font-size: 1.3em !important;
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
-    object-fit: cover;
+   
     
-    background-color: black;
     z-index:1;
     
   }
