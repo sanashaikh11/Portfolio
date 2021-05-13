@@ -2,11 +2,17 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import "../style.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import { CgGitFork } from "react-icons/cg";
+import {
+  AiFillStar,
+  AiOutlineHome,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
+} from "react-icons/ai";
+
+import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -30,9 +36,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
-          
-        </Navbar.Brand>
+       
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -45,14 +49,9 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
-           
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/"
-                onClick={() => updateExpanded(false)}
-              >
-                <i className="far fa-user"></i> About
+              <Nav.Link  as={Link} to="/" onClick={() => updateExpanded(false)}>
+                <AiOutlineHome style={{  color:"#64ffda" , marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -61,7 +60,10 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="fab fa-codepen"></i> Projects
+                <AiOutlineFundProjectionScreen
+                  style={{ color:"#64ffda",marginBottom: "2px" }}
+                />{" "}
+                Work
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -70,11 +72,10 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-file-alt"></i> Resume
+                <CgFileDocument style={{color:"#64ffda", marginBottom: "2px" }} /> Education
               </Nav.Link>
             </Nav.Item>
 
-            
           </Nav>
         </Navbar.Collapse>
       </Container>

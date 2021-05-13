@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -14,12 +13,12 @@ import que from "../../Assets/Projects/que.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
+    
       <Container>
         <h1 className="project-heading">
-          My<strong className="purple"> Projects</strong>
+          <strong className="purple"> My Projects</strong>
         </h1>
-        <p style={{ color: "black" }}>
+        <p style={{ color: " #64ffda", fontFamily: "Calibre San Francisco SF Pro Text"  }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>

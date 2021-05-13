@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -14,12 +13,12 @@ function Resume() {
 
   return (
     <Container fluid className="resume-section">
-      <Particle />
+      
       <Container>
         
         <Row className="resume">
           <Col md={6} className="resume-left">
-            <h3 className="resume-title">Experience</h3>
+            <h3 style={{ fontFamily:"SF Mono  Fira Code Fira Mono Roboto Mono monospace"}}className="resume-title">Experience</h3>
             <Resumecontent
               title="Software Developer [Internship]"
               date="Jul 2018 - Oct 2018"
@@ -27,7 +26,7 @@ function Resume() {
                 "Gathered requirements, developed use cases, implemented designing and worked on software development Worked closely with client and team and developed a ChatBot that delivered pre-fed answers to the questions.Used swing toolkit to generate the frame structure and Keylistener interface for receiving keyboard events.Incorporated Math library and random function to generate answers from an array",
                  ]}
             />
-            <h3 className="resume-title">Leadership Experience</h3>
+            <h3 style={{ fontFamily:"SF Mono  Fira Code Fira Mono Roboto Mono monospace"}}className="resume-title">Leadership Experience</h3>
             <Resumecontent
               title="Event co-host"
               date="Jun 2015 – Aug 2015"
@@ -37,7 +36,7 @@ function Resume() {
             />
           </Col>
           <Col md={6} className="resume-right">
-            <h3 className="resume-title">Education</h3>
+            <h3 style={{ fontFamily:"SF Mono  Fira Code Fira Mono Roboto Mono monospace"}}className="resume-title">Education</h3>
             <Resumecontent
               title="Information Technology Solutions,Postgraduate"
               date="Sept 2019 – Apr 2021"
