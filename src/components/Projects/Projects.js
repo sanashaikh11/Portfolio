@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title="Fundraising Platform"
               lan="Java/Servlet/JSP,Html,CSS,Javascript,NodeJs"
-              description="Led team and developed a fundraising web application for BIPOC community to view top donations, events and create charity
+              description="Developed a fundraising web application for BIPOC community to view top donations, events and create charity
               events.Incorporated Payment Gateway (Stripe) to accept the donations from the users, allowing them to register for subscriptions
               (monthly donations),withdraw the raised funds for their specific Fundraisers and gmail notifications for the same.Used MySQL in backend to store user donation data and to allow admin to perform Create, Read, Update and Delete(CRUD)
               operations."
