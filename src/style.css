@@ -617,6 +617,12 @@ font-size: 1.3em !important;
     height: 350px !important;
     width: 400px !important;
   }
+	.img-fluid {
+    max-width: 100%;
+    opacity: 0.9 !important;
+    height: 350px !important;
+    width: 400px !important;
+  }
 }
 @media (max-width: 570px) {
   .tech-icons {
@@ -675,6 +681,10 @@ font-size: 1.3em !important;
   .about-img {
     padding-top: 0 !important;
    
+<<<<<<< HEAD
+=======
+    
+>>>>>>> e8af10e9aadf57227a1ec5a9d1c5279c5c472c78
     z-index:1;
     
   }
