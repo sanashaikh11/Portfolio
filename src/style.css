@@ -47,10 +47,11 @@ ul{
 }
 
 .img-fluid {
-  max-width: 100%;
-  opacity: 0.6 !important;
-  height: 950px !important;
-  width: 800px !important;
+  /* max-width: 100%; */
+  margin-top: 180px !important;
+  opacity: 0.9 !important;
+  height: 450px !important;
+  width: 450px !important;
 }
 
 
@@ -613,6 +614,7 @@ font-size: 1.3em !important;
 
   .img-fluid {
     max-width: 100%;
+    margin-top: 10px !important;
     opacity: 0.9 !important;
     height: 350px !important;
     width: 400px !important;
@@ -634,7 +636,7 @@ font-size: 1.3em !important;
   .tech-icons3 {
     margin: 10px !important;
     height: 80px!important;
-    line-height: 70px !important;
+    line-height: 40px !important;
     width: 300px!important;
 
   }
@@ -680,11 +682,6 @@ font-size: 1.3em !important;
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
-   
-<<<<<<< HEAD
-=======
-    
->>>>>>> e8af10e9aadf57227a1ec5a9d1c5279c5c472c78
     z-index:1;
     
   }

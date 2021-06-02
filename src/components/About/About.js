@@ -6,7 +6,7 @@ import "./h.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Aboutcard from "./AboutCard";
 import about from "../../Assets/about.png";
-
+import Resume from "../Resume/Resume";
 
 
 function About() {

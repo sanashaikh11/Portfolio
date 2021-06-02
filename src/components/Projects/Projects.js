@@ -41,7 +41,7 @@ function Projects() {
               imgPath={movie}
               isBlog={false}
               title="Movie rating website"
-              lan="JHTML,CSS, JavaScript and jQuery"
+              lan="HTML,CSS, JavaScript and jQuery"
               description="Designed an interactive and user-friendly website to help the user find the ratings and reviews of tv shows, movies, books
               and magazines.
               Implemented navigation bars and hyperlinks to navigate through different web pages.
@@ -58,7 +58,7 @@ function Projects() {
               isBlog={false}
               title="Inventory Management"
               lan="Java/Servlet/JSP/EJP, SQL"
-              description="It is an online shopping application.Designed customer side platform to register and validate users, add products to cart, complete purchase or claim refund.
+              description="It is an online shopping application.Where customers can add products to cart, make a purchase or claim refund.
                Developed admin side for inventory management, customer management, invoice generation and analysis of refund or
               replacement request made by the user."
               link="https://github.com/sanashaikh11/InventoryManagement"
